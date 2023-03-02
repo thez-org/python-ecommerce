@@ -33,6 +33,7 @@ jobs:
           '**/requirements*.txt'
           '**/requirement*.txt'
           '**/setup.cfg'
+          'requirement.txt'
 
     - name: Setup CODEQL_PYTHON environment variable 
       run: |
