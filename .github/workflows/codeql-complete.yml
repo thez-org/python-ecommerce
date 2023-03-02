@@ -27,7 +27,7 @@ jobs:
       with:
         python-version: '3.9' # The version of Python to use
         cache: 'pip' # The package manager to use 
-        cache-dependency-path: '**/requirements.txt' # The path to requirements.txt file to find dependancies to cache
+        cache-dependency-path: '**/requirement.txt' # The path to requirements.txt file to find dependancies to cache
 
     - name: Setup CODEQL_PYTHON environment variable 
       run: |
